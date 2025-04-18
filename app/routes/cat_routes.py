@@ -11,8 +11,8 @@ def get_all_cats():
         results_list.append(dict(
             id = cat.id,
             name = cat.name,
-            color = cat.color,
+            color= cat.color,
             personality = cat.personality
         ))
-    
+
     return results_list
